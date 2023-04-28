@@ -157,7 +157,7 @@ myType = myType4;//Case 3: Ok, excess property allowed in case of stale object w
 
 
 
-// /*
+
 // var x: { foo: number };
 // x = { foo: 1, baz: 2 };  // Error, excess property `baz`
 // var y: { foo: number, bar?: number };
@@ -168,7 +168,7 @@ myType = myType4;//Case 3: Ok, excess property allowed in case of stale object w
 // var z: { foo: number, bar?: number };
 // var z1 = { foo: 1, baz: 2 };
 // z = z1;//No Error
-// */
+
 
 // //Nested Objects
 type Author = {
